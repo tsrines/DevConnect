@@ -7,7 +7,8 @@ const jwt = require('jsonwebtoken')
 const config = require('config')
 const bcrypt = require('bcryptjs')
 
-
+// @route GET api/auth
+// @desc  Get user
 router.get('/', auth, async (req, res) => {
   try {
     const user = await User.findById(req.user.id).select('-password')
