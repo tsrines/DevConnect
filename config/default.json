@@ -1,6 +1,5 @@
 {
-  "mongoURI": "mongodb+srv://tim:123@devconnect-bg0qm.mongodb.net/test?retryWrites=true&w=majority",
+  "mongoURI": "mongodb+srv://tim:123@devconnect-bg0qm.mongodb.net/devconnect?retryWrites=true&w=majority",
   "jwtSecret": "secrettoken",
-  "githubClientId": "29d8186abc3d40bef2ff",
-  "githubSecret": "7e0927773fb1e5002c16dcfc8ce43438f93bee2a"
+  "githubToken": "7831db83d93ef7748e96b6d5068ad0109aecec94"
 }

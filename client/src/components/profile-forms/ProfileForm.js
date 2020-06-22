@@ -244,7 +244,7 @@ export const CreateProfile = ({
 
 CreateProfile.propTypes = {
   createProfile: PropTypes.func.isRequired,
-
+  getCurrentProfile: PropTypes.func.isRequired,
   profile: PropTypes.object.isRequired,
 };
 
